@@ -1,0 +1,52 @@
+.card {
+	min-height: 170px;
+}
+
+.card-active {
+	background: rgb(255, 235, 72);
+	background: linear-gradient(
+		45deg,
+		rgba(255, 235, 72, 1) 0%,
+		rgba(246, 172, 21, 1) 100%
+	);
+}
+
+.card-deceased {
+	background: rgb(231, 116, 103);
+	background: linear-gradient(
+		45deg,
+		rgba(231, 116, 103, 1) 0%,
+		rgba(236, 73, 64, 1) 100%
+	);
+}
+
+.card-recovered {
+	background: rgb(82, 251, 161);
+	background: linear-gradient(
+		45deg,
+		rgba(82, 251, 161, 1) 3%,
+		rgba(23, 176, 52, 1) 100%
+	);
+}
+
+.card-confirmed {
+	background: rgb(103, 209, 242);
+	background: linear-gradient(
+		45deg,
+		rgba(103, 209, 242, 1) 0%,
+		rgba(23, 121, 176, 1) 100%
+	);
+}
+
+.total-cases {
+	font-weight: 700;
+}
+
+.total-title {
+	font-weight: 500;
+	margin-top: 16px;
+}
+
+.daily-cases {
+	font-weight: 600;
+}

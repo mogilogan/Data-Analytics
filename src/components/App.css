@@ -1,0 +1,13 @@
+.page-container {
+	position: relative;
+	min-height: 100vh;
+}
+
+.content-wrap {
+	padding-bottom: 2.5rem;
+}
+
+.fa-bell,
+.fa-bell-slash {
+	cursor: pointer;
+}

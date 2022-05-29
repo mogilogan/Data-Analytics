@@ -1,0 +1,23 @@
+.district-text {
+	font-weight: 700;
+}
+
+.daily-recovered {
+	font-weight: 700;
+	color: green;
+}
+
+.daily-deceased {
+	font-weight: 700;
+	color: red;
+}
+
+.daily-active {
+	font-weight: 700;
+	color: #f6ac15;
+}
+
+.daily-confirmed {
+	font-weight: 700;
+	color: rgba(63, 165, 209, 1);
+}

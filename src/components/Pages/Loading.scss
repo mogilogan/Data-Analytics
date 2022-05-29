@@ -1,0 +1,58 @@
+// @import url(https://fonts.googleapis.com/css?family=Comfortaa:400,700,300);
+
+*,
+html {
+	margin: 0;
+	padding: 0;
+}
+
+//variables
+$baseColor: #fff;
+$fontColor: #f0f;
+
+.spinner-div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+svg {
+	width: 100px;
+	height: 100px;
+	margin: 20px;
+}
+.loading-h1 {
+	text-align: center;
+	color: $fontColor;
+	margin: 0 0 100px;
+	font-size: 34px;
+	font-weight: 100;
+	text-transform: uppercase;
+	background-color: darken($baseColor, 5);
+	padding: 20px 0;
+	b {
+		font-weight: 700;
+	}
+}
+
+//follow me template
+.made-with-love {
+	margin-top: 20px;
+	padding: 10px;
+	font-size: 10px;
+	font-family: arial;
+	color: #000;
+	i {
+		font-style: normal;
+		color: #f50057;
+		font-size: 14px;
+		position: relative;
+		top: 2px;
+	}
+	a {
+		color: #000;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
